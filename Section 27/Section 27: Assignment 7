@@ -1,0 +1,18 @@
+string = "Python"
+
+res = reversed(string)
+
+resultat = list(res)
+
+for i in resultat:
+  print(f"\n {i}")
+
+
+# correction
+mot = "Python"
+for lettre in reversed(mot):
+    print(lettre)
+
+mot = "Python"
+for lettre in mot[::-1]:
+    print(lettre)
