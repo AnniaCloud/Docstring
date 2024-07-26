@@ -1,0 +1,13 @@
+numero_utilisateur = 1
+
+for numero_utilisateur   in range(1,11):
+  print (numero_utilisateur)
+  numero_utilsateur += 1
+
+#correction
+
+for i in range(10):
+    print(f"Utlisateur {i+1}")
+
+for i in range(1,11):
+    print(f"Utlisateur {i}")
